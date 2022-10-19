@@ -1,7 +1,7 @@
 import * as admin from 'firebase-admin'
 import { App, initializeApp } from 'firebase-admin/app'
 import * as fireorm from 'fireorm'
-import * as serviceAccount from '../../config/beminor-742a2-41ee157bbaeb.json'
+import * as serviceAccount from '../../config/<your-service-account-key>.json'
 
 let firebaseApp: App = null
 export function getFirebaseApp() {
